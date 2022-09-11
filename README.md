@@ -1,16 +1,11 @@
+## ポイント
+タッチセンサーが押しっぱなし（スイッチがON)の場合、音楽の演奏途中で割り込みが何度も発生するため、OFFにするまで正常に音楽が戦争されない。
+演奏中に割り込み処理が走らないようにフラグで管理し、演奏中は一時停止するようにしたら、音楽が終わるまで正常に演奏できました。
+設定するメロディーの長さに合わせて、一時停止の秒数を変更してください。
 
 > このページを開く [https://tyamada99.github.io/touch-test/](https://tyamada99.github.io/touch-test/)
 
-## 拡張機能として使用
-
-このリポジトリは、MakeCode で **拡張機能** として追加できます。
-
-* [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
-* **新しいプロジェクト** をクリックしてください
-* ギアボタンメニューの中にある **拡張機能** をクリックしてください
-* **https://github.com/tyamada99/touch-test** を検索してインポートします。
-
-## このプロジェクトを編集します ![ビルド ステータス バッジ](https://github.com/tyamada99/touch-test/workflows/MakeCode/badge.svg)
+## このプロジェクトを編集します
 
 MakeCode でこのリポジトリを編集します。
 
